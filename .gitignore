@@ -1,0 +1,27 @@
+# Credentials: API keys and the MotherDuck token. Never commit.
+.streamlit/secrets.toml
+*.env
+.env
+
+# Local data: the mock database (~60 MB) and the chatbot history.
+*.duckdb
+*.duckdb.tmp/
+*.duckdb.wal
+*.db
+*.db.*
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editor and OS
+.vscode/
+.claude/
+Thumbs.db
+.DS_Store

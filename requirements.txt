@@ -1,3 +1,7 @@
-streamlit       # framework web app
-google-genai    # SDK untuk memanggil Gemini
-pandas          # pengolahan data tabel
+streamlit>=1.62,<2
+pandas>=2.1,<3
+altair>=5.4,<7
+plotly>=5.20,<7
+duckdb>=1.0,<2
+openai>=1.30,<3
+pytest>=8.0,<9

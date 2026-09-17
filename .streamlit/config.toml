@@ -1,0 +1,43 @@
+# Token warna dari docs/design_system.md — sudah lolos validator dataviz.
+# Palet kategori & sekuensial diletakkan di sini supaya chart Altair/Vega
+# memakainya otomatis, tanpa perlu mewarnai per-chart.
+#
+# Huruf: Plus Jakarta Sans. Alasan: dirancang di Jakarta untuk identitas kota, jadi
+# cocok dengan dashboard berbahasa Indonesia penuh; x-height tinggi dan angka yang
+# tetap terbaca di ukuran kecil label sumbu.
+
+[theme]
+base = "light"
+font = "'Plus Jakarta Sans':https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+baseFontSize = 15
+headingFontSizes = ["28px", "20px", "17px", "15px", "14px", "13px"]
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+baseRadius = "10px"
+buttonRadius = "8px"
+showSidebarBorder = true
+linkUnderline = false
+primaryColor = "#0077C8"
+backgroundColor = "#F7F9FC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#103A5D"
+borderColor = "#E7ECF2"
+linkColor = "#0077C8"
+chartCategoricalColors = ["#0077C8", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#4a3aa7"]
+chartSequentialColors = ["#cde2fb", "#b7d3f6", "#9ec5f4", "#86b6ef", "#6da7ec", "#5598e7", "#3987e5", "#2a78d6", "#256abf", "#1c5cab"]
+greenColor = "#0ca30c"
+yellowColor = "#fab219"
+orangeColor = "#ec835a"
+redColor = "#d03b3b"
+
+[theme.dark]
+primaryColor = "#2E9BE0"
+backgroundColor = "#0E1B29"
+secondaryBackgroundColor = "#132C42"
+textColor = "#EAF4FF"
+borderColor = "#1E3A52"
+linkColor = "#2E9BE0"
+chartCategoricalColors = ["#2E9BE0", "#d95926", "#199e70", "#c98500", "#d55181", "#9085e9"]
+greenColor = "#0ca30c"
+yellowColor = "#fab219"
+orangeColor = "#ec835a"
+redColor = "#d03b3b"
